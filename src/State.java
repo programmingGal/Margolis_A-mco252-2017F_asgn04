@@ -5,10 +5,10 @@ public class State
 
 	
 		// This class stores data about each of the states we're reporting on
-	   String stateName;
-	   int democratVotes;
-	   int republicanVotes;
-	   int electoralVotes;
+	  private String stateName;
+	  private  int democratVotes;
+	  private int republicanVotes;
+	  private int electoralVotes;
 	   
 	   public State (String stateName)
 	   {

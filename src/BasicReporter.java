@@ -52,7 +52,7 @@ public  class BasicReporter implements Observer
 	}
 	
 	
-	//abstract String display(String electVoteReport);
+	
 	public void display(String popVoteReport,String electVoteReport)
 	{  
 		

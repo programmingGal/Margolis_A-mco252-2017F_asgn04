@@ -7,12 +7,8 @@ public class ElectionReportingProgram
 	  
 	  ElectionData electionData = new ElectionData();
 	  
-	  // need code to pass this object to all observers (instantiate them)
-	  /*RepFavoringReporter1 reporter1 = new RepFavoringReporter1(electionData);
-	  DemFavoringReporter2 reporter2 = new DemFavoringReporter2(electionData);
-	  DemPopularRepElectoralReporter3 reporter3 = new DemPopularRepElectoralReporter3(electionData);
-	  FavorDemForPopularReporter4 reporter4 = new FavorDemForPopularReporter4(electionData);
-	  HonestReporter5 reporter5 = new HonestReporter5(electionData);*/
+	  //pass this object to all observers (instantiate them)
+	  
 	  HonestReporter5 reporter5 = new HonestReporter5(electionData);
 	  FavorDemForPopularReporter4 reporter4 = new FavorDemForPopularReporter4(electionData);
 	  DemPopularRepElectoralReporter3 reporter3 = new DemPopularRepElectoralReporter3(electionData);
@@ -20,7 +16,7 @@ public class ElectionReportingProgram
 	  RepFavoringReporter1 reporter1 = new RepFavoringReporter1(electionData);
 	  
 	  
-	  // add the rest when make them
+	 
       
       // to hold the values for each of the 5 states
       int [] democratVotes = new int [5];
